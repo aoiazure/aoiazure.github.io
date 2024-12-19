@@ -9,9 +9,6 @@ toc-title: Contents
 version: v0.1.1
 ---
 
-## Egg
-Do you think this is okay???
-
 ## Introduction
 
 Monospace fonts are dear to many of us. 
