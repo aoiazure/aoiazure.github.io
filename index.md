@@ -27,8 +27,8 @@ use-debug: no
 ╭───────────────────────────╮
 │                           │
 │     today's missions:     │
-│     -await <a href="https://bsky.app/profile/aoiazure.moe">contact</a>        │
-│     -check <a href="https://aoiazure.itch.io/">itch.io</a>        │
+│      -await <a href="https://bsky.app/profile/aoiazure.moe">contact</a>       │
+│      -check <a href="https://aoiazure.itch.io/">itch.io</a>       │
 │                           │
 ╰───────────────────────────╯
 
