@@ -3,7 +3,7 @@ title: 青 AOZORA 空
 subtitle: _welcome to the <span style="color:#6edcea">clouds.</span>_
 author: aoiazure
 author-url: "https://aoiazure.itch.io/"
-date: ????-12-19
+date: XX-12-19
 lang: en
 toc-title: Contents
 # abstract-title: abstract
