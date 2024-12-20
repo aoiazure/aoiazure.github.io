@@ -9,7 +9,7 @@ toc-title: Contents
 # abstract-title: abstract
 # abstract: abstract contents
 version: v.UNKNOWN
-operating-system: angelOS_v2562.08
+operating-system: angelOS
 use-debug: no
 ---
 <hr>
@@ -18,10 +18,10 @@ use-debug: no
 
 <figure class="mission-board">
 <pre>
-╭───────────────╮        ╭──────────────────────────╮
-│     loved     ├────────┤   - today's forecast -   │
-│   as always   ├────────┤         downpour         │
-╰───────────────╯        ╰──────────────────────────╯
+╭─────────────╮    ╭──────────────────────╮
+│    loved    ├────┤ - today's forecast - │
+│  as always  ├────┤       downpour       │
+╰─────────────╯    ╰──────────────────────╯
 
 ╭───────────────────────────╮
 │                           │
@@ -49,27 +49,43 @@ Below, you may view previously completed missions and work completed by this ope
   <tr>
     <th>![you who won against the sun (2024, Godot Engine)](img/you-who-won-against-the-sun.png)</th>
     <td>
-      __personal project.__<br/><br/>
-      a hyper-dense shortform atmospheric narrative game exploring grief and loss.<br/><br/>
-      responsible for all art, music, and writing.<br/><br/>
-      play it for free [here](https://aoiazure.itch.io/you-who-won-against-the-sun).
+      <p>
+        __personal project__
+
+        a hyper-dense shortform atmospheric narrative game exploring grief and loss.
+
+        responsible for all art, music, and writing.
+
+        play it for free [here](https://aoiazure.itch.io/you-who-won-against-the-sun).
+      </p>
     </td>
   </tr>
   <tr>
     <th>![Cursed Jumper (2024, Godot Engine)](img/cursed-jumper.png)</th>
     <td>
-      __game jam entry (2 weeks).__<br/><br/>
-      an action platformer where the player manages various curses that subvert, manipulate, and otherwise affect mobility options.<br/><br/>
-      responsible for programming, game design, UX/UI, QA.<br/><br/>
-      play it for free [here](https://aoiazure.itch.io/cursed-jumper).<br/><br/>
+      <p>
+        __game jam entry (2 weeks)__
+
+        an action platformer where the player manages various curses that subvert and affect mobility options.
+
+        responsible for programming, game design, UX/UI, QA.
+
+        play it for free [here](https://aoiazure.itch.io/cursed-jumper).
+      </p>
     </td>
   </tr>
   <tr>
     <th>![out of memory (2023, Godot Engine)](img/out-of-memory.png)</th>
     <td>
-      __ludum dare 54 entry.__<br/><br/>
-      a micro narrative game about choosing which of your life's memories you would rather keep when your brain has run out of room.<br/><br/>
-      play it for free [here](https://aoiazure.itch.io/out-of-memory).<br/><br/>
+      <p>
+        __ludum dare 54 entry__
+
+        a micro narrative game about choosing which of your life's memories you would rather keep when your brain has run out of room.
+
+        responsible for all aspects.
+
+        play it for free [here](https://aoiazure.itch.io/out-of-memory).
+      </p>
     </td>
   </tr>
 </table>
