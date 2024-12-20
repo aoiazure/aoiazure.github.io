@@ -21,12 +21,29 @@
   font-size: 16px;
 }
 
+@media (prefers-color-scheme: light) {
+  .title {
+    --text-color: #6e9dea;
+  }
+
+  .fake-username {
+    --text-color: green;
+  }
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #fff;
     --text-color-alt: #aaa;
     --background-color: #000;
     --background-color-alt: #111;
+  }
+  
+  .title {
+    --text-color: #6e9dea;
+  }
+
+  .fake-username {
+    --text-color: greenyellow;
   }
 }
 
@@ -55,7 +72,7 @@ body {
   width: 100%;
   margin: 0;
   padding: var(--line-height) 2ch;
-  max-width: calc(min(80ch, round(down, 100%, 1ch)));
+  max-width: calc(min(100ch, round(down, 100%, 1ch)));
   line-height: var(--line-height);
   overflow-x: hidden;
 }
@@ -175,6 +192,9 @@ th {
   margin: 0;
 }
 .header tr td:last-child {
+  text-align: right;
+}
+.header tr:nth-child(3) td:nth-child(2) {
   text-align: right;
 }
 
@@ -308,7 +328,7 @@ input, button, textarea {
   line-height: normal;
   -webkit-font-smoothing: inherit;
   -moz-osx-font-smoothing: inherit;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 
 input[type=checkbox] {
@@ -430,6 +450,64 @@ label input {
 .grid:has(> :last-child:nth-child(7)) { --grid-cells: 7; }
 .grid:has(> :last-child:nth-child(8)) { --grid-cells: 8; }
 .grid:has(> :last-child:nth-child(9)) { --grid-cells: 9; }
+
+/* LOADING ELLIPSES */
+.loading {
+  font-style: italic;
+}
+.loading::after {
+  white-space: pre;
+  display: inline-block;
+  animation: dotty steps(1,end) 2s infinite;
+  content: '';
+}
+
+@keyframes dotty {
+  0%   { content: '   '; }
+  25%  { content: '.  '; }
+  50%  { content: '.. '; }
+  75%  { content: '...'; }
+  100% { content: '   '; }
+}
+
+/* FLAVOR CLASSES */
+.title {
+  color: var(--text-color);
+}
+
+.fake-username {
+  display: inline-block;
+  color:var(--text-color);
+}
+
+/* MISSION BOARD */
+.mission-board {
+  text-align: center;
+  a {
+    color: #6e9dea;
+  }
+}
+
+/* PRIOR WORK */
+.prior-works {
+  margin-bottom: calc(var(--line-height) * 2);
+  a {
+    color: #6e9dea;
+  }
+  h1 {
+    margin: 0;
+  }
+}
+
+.prior-works tr th {
+  vertical-align: middle;
+  text-align: left;
+}
+
+.prior-works tr td:last-child {
+  vertical-align: middle;
+  text-align: right;
+}
 
 /* DEBUG UTILITIES */
 

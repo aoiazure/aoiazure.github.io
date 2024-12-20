@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="aoiazure" />
+  <meta name="dcterms.date" content="2024-12-19" />
+  <title>青 AOZORA 空</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td colspan="2" rowspan="2" class="width-auto">
+      <h1 class="title"><span style="color:#6e9dea">青 AOZORA
+空</span></h1>
+      <span class="subtitle"><em>welcome to the <span
+style="color:#6edcea">clouds.</span></em></span>
+    </td>
+    <th>Version</th>
+    <td class="width-min">v.NIL</td>
+  </tr>
+  <tr>
+    <th>Updated</th>
+    <td class="width-min"><time style="white-space: pre;">2024-12-19</time></td>
+  </tr>
+  <tr>
+    <th class="width-min">Operator</th>
+    <td class="width-auto"><a href="https://aoiazure.itch.io/"><cite>aoiazure</cite></a></td>
+    <th class="width-min">OS</th>
+    <td style="white-space: pre;">angelOS_v2562.08</td>
+  </tr>
+</table>
+<div class="username" style="text-align: end; font-style: italic;">
+  user [LIAR] logged in.
+</div>
+<!-- <label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" /> Debug mode</label> -->
+<div class="abstract">
+<div class="abstract-title">apotheosis</div>
+a
+</div>
+<nav id="TOC" role="doc-toc">
+<h2 id="toc-title">Contents</h2>
+<ul class="incremental">
+<li><a href="#the-basics" id="toc-the-basics">The Basics</a></li>
+</ul>
+</nav>
+<figure style="text-align: center;">
+<pre>
+╭────────────────╮        ╭───────────────────────╮
+│      love,     │        │    today's forecast   │
+│   as always    │        │     rain, of course   │
+╰────────────────╯        ╰───────────────────────╯
+
+╭───────────────────────╮
+│                       │
+│   today's mission:    │
+│    check <a href="https://aoiazure.itch.io/" style="color:#6e9dea">itch.io</a>      │
+│                       │
+╰───────────────────────╯
+
+</pre>
+</figure>
+<!-- <br/> -->
+<center>
+<pre><div class="loading">enjoy your stay</div></pre>
+</center>
+<p><br/></p>
+<h2 id="the-basics">The Basics</h2>
+<p>This document uses a few extra classes here and there, but mostly
+it’s just markup. This, for instance, is a regular paragraph.</p>
+<p>Look at this horizontal break:</p>
+<hr>
+<p>Lovely. We can hide stuff in the <code>&lt;details</code>&gt;
+element:</p>
+<details>
+<summary>
+A short summary of the contents
+</summary>
+<p>
+Hidden gems.
+</p>
+</details>
+  <div class="debug-grid"></div>
+  <script src="index.js"></script>
+</body>
+</html>
