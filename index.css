@@ -477,7 +477,7 @@ label input {
 
 .fake-username {
   display: inline-block;
-  color:var(--text-color);
+  color: var(--text-color);
 }
 
 /* MISSION BOARD */

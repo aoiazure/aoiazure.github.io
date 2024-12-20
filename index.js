@@ -120,3 +120,11 @@ if (debugToggle != null) {
   debugToggle.addEventListener("change", onDebugToggle);
   onDebugToggle();
 }
+
+const loginNames = ["LIAR", "SAINT", "AOI", "TRAVELER", "FAUST", "LOST", "FORGOTTEN", "NIMBUS", "HALO", "AFTERTHOUGHT", "DROPLET"];
+const userName = loginNames[Math.floor(Math.random() * loginNames.length)];
+
+const collectionUsernames = document.getElementsByName("fake-username")
+for (let i=0; i<collectionUsernames.length; i++) {
+  collectionUsernames[i].innerText = "["+userName+"]";
+}

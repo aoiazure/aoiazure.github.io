@@ -10,12 +10,11 @@ toc-title: Contents
 # abstract: abstract contents
 version: v.UNKNOWN
 operating-system: angelOS_v2562.08
-fake-username: LIAR
 use-debug: no
 ---
 <hr>
 
-<center><div style="font-style: italic;">welcome back.</div></center>
+<center><div style="font-style: italic;">welcome back<div name="fake-username" class="fake-username"></div>.</div></center>
 
 <figure class="mission-board">
 <pre>
@@ -27,8 +26,8 @@ use-debug: no
 ╭───────────────────────────╮
 │                           │
 │     today's missions:     │
-│      -await <a href="https://bsky.app/profile/aoiazure.moe">contact</a>       │
-│      -check <a href="https://aoiazure.itch.io/">itch.io</a>       │
+│      - await <a href="https://bsky.app/profile/aoiazure.moe">contact</a>      │
+│      - check <a href="https://aoiazure.itch.io/">itch.io</a>      │
 │                           │
 ╰───────────────────────────╯
 
@@ -41,6 +40,8 @@ use-debug: no
 
 
 ## Mission Logs
+
+Below, you may view previously completed missions and work completed by this operator.
 
 <details>
 <summary>Prior Work</summary>
