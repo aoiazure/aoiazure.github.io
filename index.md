@@ -50,7 +50,7 @@ Below, you may view previously completed missions and work completed by this ope
     <th>![Floramino (2025, Unity)](img/floramino.png)</th>
     <td>
       <p>
-        __game jam entry (48 hours)__
+        __game jam entry (48 hrs)__
         
         an arcade-y game about managing a garden in the shortness of spring.
 
