@@ -111,7 +111,7 @@ function checkOffsets() {
     }
   }
 }
-
+// DEBUG
 const debugToggle = document.querySelector(".debug-toggle");
 function onDebugToggle() {
   document.body.classList.toggle("debug", debugToggle.checked);
@@ -121,6 +121,8 @@ if (debugToggle != null) {
   onDebugToggle();
 }
 
+
+// LOGIN
 const loginNames = ["LIAR", "SAINT", "AOI", "TRAVELER", "FAUST", "LOST", "FORGOTTEN", "NIMBUS", "HALO", "AFTERTHOUGHT", "DROPLET"];
 const userName = loginNames[Math.floor(Math.random() * loginNames.length)];
 

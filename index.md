@@ -47,6 +47,34 @@ Below, you may view previously completed missions and work completed by this ope
 <summary>Prior Work</summary>
 <table class="prior-works">
   <tr>
+    <th>![Floramino (2025, Unity)](img/floramino.png)</th>
+    <td>
+      <p>
+        __game jam entry (48 hours)__
+        
+        an arcade-y game about managing a garden in the shortness of spring.
+
+        responsible for parts of the programming, game design.
+
+        play it for free [here](https://luxille.itch.io/floramino).
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>![everyone walked away (2025, Godot Engine)](img/everyone-walked-away.png)</th>
+    <td>
+      <p>
+        __game jam entry (2 weeks)__
+        
+        a hyper-dense atmospheric game about leaving, even when you're happy.
+
+        responsible for all art and writing.
+
+        play it for free [here](https://aoiazure.itch.io/everyone-walked-away).
+      </p>
+    </td>
+  </tr>
+  <tr>
     <th>![you who won against the sun (2024, Godot Engine)](img/you-who-won-against-the-sun.png)</th>
     <td>
       <p>
